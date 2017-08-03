@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+    color: #325050;
+    background: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 15px;
+    background: #FFF8DC;
+}
+
+h1 {
+    padding-top: 0;
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+h2{
+	display: block;
+	font-style: oblique;
+	font-family: 'Architects Daughter', cursive;
+}
+
+header{
+	text-align: center;
+  padding-top: 45px;
+  margin: 3px;
+  background-image: url(https://c1.staticflickr.com/9/8424/7841845106_3d4a895169_b.jpg);
+  color: white;
+  height: 200px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+
+h3{
+  margin: 2em 0 0 0;
+  color: #2e484c;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-top-right-radius: 25px;
+  background-image: url(http://static.vix.com/es/sites/default/files/btg/tech.batanga.com/files/Fondos-para-paginas-web-08.jpg);
+}
+
+.summary {
+    padding: 2em;
+    text-align: right;
+    margin-top: 0px;
+}
+
+div.explanation, div.benefits {
+  box-shadow: 5px 5px 5px black;
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138,188,159,0.5);
+  border-radius: 25px;
+}
+
+a:hover{
+	color: salmon;
+	text-decoration: underline;
+}
+
+a{
+	color: #4682B4;
+	text-decoration: none;
+}
+
+header:hover{
+	color: #ADFF2F;
+	font-size: 16px;
+	letter-spacing: 5px;
+  font-border: black;
+}
+
+.summary p a:hover{
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 2px;
+	background: salmon;
+	color: white;
+	text-transform: uppercase;
+}
+
+#contentinfo{
+	font-size: 20px;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #f0f0f0;
+	text-align: center;
+	height: 45px;
+	color: #9c9c9c;
+	border-radius: 25px;
+	display: block;
+	background-image: url(https://static2.creativosonline.org/blog/wp-content/uploads/2013/11/Tileable-Wood_570x300_scaled_cropp.jpg);
+}
+
+div.preamble, div.participation, div.requirements{
+	box-shadow: 5px 5px 5px black;
+    background-attachment: scroll, scroll, fixed;
+    background-color: #E6E6FA;
+    border-radius: 25px;
+}
+
+footer{
+	padding: 20px;
+	text-align: center;
+  }
+
+footer a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    background-color: salmon;
+    border-radius: 50%;
+  }
+
+footer a:hover{
+    color: #9b0e0e;
+    background-color: #bc6355;
+    text-decoration: none;
+  }
