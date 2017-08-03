@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 20px;
   padding: 0;
   margin-left: 10px;
   margin-right: 10px;
@@ -11,22 +11,22 @@
 
 body{
   font-family: sans-serif;
-    color: #325050;
-    background: #fff;
-    font-family: 'Libre Baskerville', sans-serif;
-    font-size: 15px;
-    background: #FFF8DC;
+  color: #325050;
+  background: #fff;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 15px;
+  background: #FFF8DC;
 }
 
 h1 {
-    padding-top: 0;
-    padding-bottom: 5px;
-    border-bottom: none;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 3.2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 5px;
+  border-bottom: none;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 h2{
@@ -60,9 +60,9 @@ h3{
 }
 
 .summary {
-    padding: 2em;
-    text-align: right;
-    margin-top: 0px;
+  padding: 2em;
+  text-align: right;
+  margin-top: 0px;
 }
 
 div.explanation, div.benefits {
@@ -99,7 +99,7 @@ header:hover{
 }
 
 #contentinfo{
-	font-size: 20px;
+	font-size: 15px;
 	background: #fff;
 	padding: 10px;
 	border: 1px solid #f0f0f0;
@@ -113,32 +113,65 @@ header:hover{
 
 div.preamble, div.participation, div.requirements{
 	box-shadow: 5px 5px 5px black;
-    background-attachment: scroll, scroll, fixed;
-    background-color: #E6E6FA;
-    border-radius: 25px;
+  background-attachment: scroll, scroll, fixed;
+  background-color: #E6E6FA;
+  border-radius: 25px;
 }
 
 footer{
 	padding: 20px;
 	text-align: center;
-  }
+}
 
 footer a{
-    text-decoration: none;
-    padding: 10px;
-    font-family: arial;
-    text-transform: uppercase;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 600;
-    font-size: 25px;
-    color: white;
-    background-color: salmon;
-    border-radius: 50%;
-  }
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  background-color: salmon;
+  border-radius: 10%;
+  border: 1px solid #eee;
+}
 
 footer a:hover{
-    color: #9b0e0e;
-    background-color: #bc6355;
-    text-decoration: none;
-  }
+  color: #9b0e0e;
+  background-color: #bc6355;
+  text-decoration: none;
+}
+
+.design-name{
+  text-transform: uppercase;
+}
+.design-name:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+#zen-supporting{
+  float: left;
+  width: 70%;
+}
+/*bloque derecho*/
+#complementary{
+  display: block;
+  width: 22%;
+}
+
+ul li {
+  list-style: none;
+}
+
+.select, .archives, .resources{
+  height: 25%;
+  background: none;
+  text-align: center;
+}
+
+.select:hover, .archives:hover, .resources:hover{
+  font-size: 30px;
+}
